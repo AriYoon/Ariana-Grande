@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>#Maincode Hackdays</title>
+
+
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+  border-bottom: 2px solid #2ecc71;
+  margin-bottom: 1em;
+
+}
+p1 {
+    color : red;
+}
+
+a {
+  text-decoration: none;
+  color: #2ecc71;
+  border-bottom: 1px solid #333333;
+  transition: all .4s ease;
+}
+a:hover {
+  color: #333333;
+  border-bottom: 1px solid #2ecc71;
+}
+
+nav {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  left: -30%;
+  background-image: url(http://r.myxotod.de/codepen.io/maincode/ubuntu-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+nav a {
+  display: block;
+  width: 100%;
+  padding: 2em;
+  box-sizing: border-box;
+  background: rgba(51, 51, 51, 0.5);
+  border-bottom: 2px solid #2ecc71;
+  text-transform: uppercase;
+}
+nav a:hover {
+  border-bottom: 2px solid #2ecc71;
+  background: rgba(238, 238, 238, 0.5);
+}
+
+.toggle-nav {
+  font-size: 3em;
+  background: transparent;
+  color: #2ecc71;
+  line-height: 1em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  z-index: 100;
+  background: #eeeeee;
+}
+
+.wrapper {
+  position: relative;
+  box-shadow: 0 0 1em #333333;
+}
+.wrapper section {
+  position: relative;
+  background: #eeeeee;
+}
+.wrapper section article {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+.wrapper section article p {
+  margin-bottom: 1em;
+}
+.wrapper section article p:last-of-type {
+  margin-bottom: 0;
+}
+.wrapper section:after {
+  content: "";
+  display: block;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 30em;
+  width: 100%;
+}
+.wrapper section:nth-child(1):after {
+  background-image: url("https://koreatimes.net/images/attach/L6CYN1P9ID00LB4-2017060513061707/20170605-13063590.jpg");
+}
+.wrapper section:nth-child(2):after {
+  background-image: url("http://postfiles10.naver.net/20160729_105/kcw0823_14697909986099jRyS_JPEG/Yours_Truly_Artwork.jpg?type=w966");
+}
+.wrapper section:nth-child(3):after {
+  background-image: url("https://bgoodedotnet1.files.wordpress.com/2014/10/arianagrandemyeverything_article_story_large.jpg");
+}
+.wrapper section:nth-child(4):after {
+  background-image: url("https://merchbar.imgix.net/product/vinylized/upc/85/602547868541.jpg?w=1280&h=1280&quality=60&auto=compress%252Cformat");
+}
+.wrapper section:nth-child(5):after {
+  background-image: url("https://i.ytimg.com/vi/pxHCarok170/maxresdefault.jpg");
+}
+.wrapper section:nth-child(6):after {
+  background-image: url("https://chimesnewspaper.com/wp-content/uploads/2019/02/Screen-Shot-2018-11-07-at-11.52.26-AM-900x505.png");
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper section article {
+    width: 80%;
+  }
+  .wrapper section:after {
+    height: 15em;
+  }
+}
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <nav>
+  <a href="#maincode">Ariana grande</a>
+  <a href="#whatis">First album : Yours Truly</a>
+  <a href="#participate">Second album : My Everything</a>
+  <a href="#happening">Third album : Dangerous Woman</a>
+  <a href="#costs">Fourth album : Sweetener</a>
+  <a href="#sponsorus">Fifth album : thank u, next</a>
+</nav>
+<button class="toggle-nav entypo-menu"></button>
+<div class="wrapper">
+  <section id="maincode">
+    <article>
+      <h1>Ariana grande</h1>
+      <p>Welcome to Ariana Grande's Album museum!</p>
+      <p>Do you like Ariana Grande?? Then scroll down and watch Ariana Grande's song album.
+      <p> If you want more information from Ariana Grande, please visit <a href="https://www.instagram.com/arianagrande/?hl=ko">Instagram</a> please.</p>
+    </article>
+  </section>
+  <section id="whatis">
+    <article>
+      <h1>First album : Yours Truly</h1>
+      <p>This is the first full-length album released on August 30, 2013. She hated the same bubblegum pop genre as her previous debut single. So she released this album in order to show her music in the style of R&B in 1990.</p>
+      <br>
+      <p1>Song :  Honeymoon Avenue, Baby I, Right There, Tattooed Heart, Lovin' It, Piano, Daydreamin', The Way</p1>
+
+    </article>
+  </section>
+  <section id="participate">
+    <article>
+      <h1>Second album : My Everything</h1>
+      <p>This album was released on August 22, 2014, which was a huge hit both at home and abroad. The genres of this album are R&B, Pop, and even Dance-Pop.</p>
+      <br>
+      <p1>Song : Intro, Problem, One Last Time, Why Try, Break Free, Best Mistake, Be My Baby, Break Your Heart Right Back, Bang Bang, Love me harder....</p1>
+    </article>
+  </section>
+  <section id="happening">
+    <article>
+      <h1>Third album : Dangerous Woman</h1>
+      <p>On May 20, the third album of pop fairy Ariana Grande was released. This is a mature album that shows more distinctive colors and genres of Grande. The third album is more direct than the previous one.</p>
+      <br>
+      <p1>Song : Mooonlight, Dangerous Woman, Side to Side, Let Me Love You,  Greedy, I Don't Care, Touch It...</p1>
+    </article>
+  </section>
+  <section id="costs">
+    <article>
+      <h1>Fourth album : Sweetener</h1>
+      <p>Ariana Grande will release her fourth album on August 17, 2018. Unlike the previous album, there were many very sweet and lovely songs.</p>
+      <br>
+      <p1>Song : raindrops, blazed, God is a woman, sweetener, everytime, No Tears Left to Cry, better off, goodnight n go</p1>
+    </article>
+  </section>
+  <section id="sponsorus">
+    <article>
+      <h1>Fifth album : thank u, next</h1>
+      <p>On February 8, Ariana Grande's fifth album was released. This album is made up of only Ariana Grande's vocals, with no other artist's featuring.</p>
+      <br>
+      <p1>Song : imagine, needy, NASA, 7 rings, thank u, next, make up...</p1>
+    </article>
+  </section>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
